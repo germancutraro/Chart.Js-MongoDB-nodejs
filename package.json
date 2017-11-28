@@ -1,0 +1,19 @@
+{
+  "name": "chartjs-node-mongo",
+  "version": "1.0.0",
+  "description": "Simple ChartJs with data of mongodb",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "germancutraro",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "faker": "^4.1.0",
+    "mongoose": "^4.13.5"
+  }
+}
