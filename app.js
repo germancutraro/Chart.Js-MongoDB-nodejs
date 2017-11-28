@@ -26,7 +26,7 @@ app.get('/generate', (req, res) => {
   for (let i = 0; i < 100; i++) {
     let firstName = faker.name.firstName(),
         lastName = faker.name.lastName(),
-        randomAge = Math.round(Math.random() * (80 - 10) + 10);
+        randomAge = Math.round(Math.random() * (90 - 1) + 1);
     // create users
     User.create({firstName: firstName, lastName: lastName, age: randomAge})
       .then(() => {})
